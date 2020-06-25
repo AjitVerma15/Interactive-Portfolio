@@ -1,103 +1,71 @@
-.heading {
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 2% 5%;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
-body {
-  align-items: center;
-  margin: 20px 40px 40px 20px;
-  width: auto;
-  height: auto;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.first {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 80px;
-  margin-right: 80px;
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-}
-
-.first-heading {
-  margin-left: 20px;
-  margin-right: 100px;
-  text-align: center;
-}
-
-.paragraph {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  line-height: 2;
-  color: #868e96
-}
-
-.social_media_icon {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile_pic {
-  max-width: 100%;
-  height: auto;
-  margin-right: 50px;
-  border-radius: 100%;
-  float: left;
-}
-
-.Header {
-  text-align: center;
-  overflow: hidden;
-  float: right;
-}
-
-li {
-  display: inline;
-}
 
 .headerachor {
   color: black;
-  margin: auto;
+  margin: 0 7px 0 7px;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-size: contain;
-  display: inline-block;
-  width: 170px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
 }
 
 .headerachor:hover {
   background-color: #f1f1f1;
 }
 
-.resume{
-  width:100%;
+.first-section{
   text-align: center;
-  margin: 20px auto 20px auto;
+}
+
+.first-portion{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.first-heading{
+  text-align: center;
+  padding-top: 1rem;
+}
+.heading{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 15px;
+
+}
+
+.paragraph{
+  color: #868e96;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+}
+
+.image_section{
+  text-align: center;
+}
+
+.profile_pic{
+  border-radius: 100%;
+}
+
+.resume{
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .resume_bot {
   background-color: #3498db;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  padding: 13px 22px;
+  font-weight: 100;
+  padding: 8px 15px;
   border-radius: 6px;
   margin-bottom: 20px;
   text-align: center;
@@ -105,23 +73,19 @@ li {
 
 .resume_bot:hover{
   background-color: white;
+  text-decoration: none;
   color: black;
   border : solid black 1px;
 }
 
 
-.footer {
-  text-align: center;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #868e96
-}
 
 .btn {
   display: inline-block;
   width: 70px;
   height: 70px;
   background: #f1f1f1;
+  padding: 0px 0px;
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
@@ -156,4 +120,9 @@ li {
   animation: aaa 0.7s 1;
   top: -10%;
   left: -10%;
+}
+
+
+.footer{
+  text-align: center;
 }
