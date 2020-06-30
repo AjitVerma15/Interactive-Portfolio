@@ -223,7 +223,15 @@ span.wave {
       margin-bottom: 8px;
   }
 
- 
+  @media only screen and (max-width : 764px){
+    .feature-2{
+      display: flex;
+      flex-direction: column;
+    }
+    .feature-web{
+      order:2;
+    }
+  }
 
   @media only screen and (max-width : 950px){
 
@@ -249,15 +257,7 @@ span.wave {
       .pandas{
         width: 23%;
         height: 15%;
-      }
-      .feature-2{
-        display: flex;
-        flex-direction: column;
-      }
-      .feature-web{
-        order:2;
-      }
-      
+      }  
   }
 
  
