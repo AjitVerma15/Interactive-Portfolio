@@ -1,8 +1,7 @@
 
 body{
-    font-family: 'Open Sans', sans-serif;
-    
-    
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
   }
 .body_section{
     padding : 3% 5% 1%;
@@ -40,6 +39,23 @@ body{
     text-align: left;
     position: relative;
 }
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
 
 .first-image{
     text-align: right;
@@ -48,6 +64,8 @@ body{
 }
 
 .boy{
+  width: 100%;
+  height: 100%;
   animation: bounce 1.2s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -64,9 +82,10 @@ body{
 
 .Image-boy{
   text-align: center;
+  align-items: center;
 }
 
-@media(min-width:950px){
+@media only screen and (min-width:950px){
   .Image-boy{
     display:none;
   }
@@ -79,10 +98,11 @@ body{
       color: #868e96;
   }
 
+
   .btn {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 4.37rem;
+    height: 4.37rem;
     background: #e9e9e9;
     padding: 0px 0px;
     margin: 10px;
@@ -95,7 +115,7 @@ body{
 
   .btn i {
     line-height: 70px;
-    font-size: 26px;
+    font-size: 1.625rem;
     transition: 0.2s linear;
   }
   
@@ -152,6 +172,7 @@ body{
 
 .feature-3{
   padding-top: 4%;
+  padding-bottom: 20px;
   text-align: center;
 } 
 
@@ -170,6 +191,7 @@ body{
   .dev-icon{
       list-style: none;
       display: inline;
+      padding: 0%;
   }
 
   .numpy{
@@ -201,19 +223,18 @@ body{
       margin-bottom: 8px;
   }
 
-  .c-logo {
-    width : 20%;
-    height: 25%;
-    margin-top: 0;
-    padding-bottom: 6%;
-  }
+ 
 
+  @media only screen and (max-width : 950px){
 
-  @media (max-width : 950px){
-
-    body{
+    body,html{
+      text-align: center;
       font-size: 16px;
       line-height: normal;
+    }
+
+    h1{
+      font-size: 25px;
     }
     p{
       line-height: normal;
@@ -243,7 +264,6 @@ body{
 
 
 footer{
-  padding-top: 5%;
   color: #868e96;
   text-align: center;
 }
