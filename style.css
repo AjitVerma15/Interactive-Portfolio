@@ -6,6 +6,10 @@ body{
 .body_section{
     padding : 3% 5% 1%;
 }
+
+p{
+  font-size: 18px;
+}
   
   a{
     text-decoration: none;
@@ -34,8 +38,7 @@ body{
    }
 
   .section-1{
-    
-    margin-top: 8%;
+    margin-top: 6%;
     text-align: left;
     position: relative;
 }
@@ -99,7 +102,7 @@ span.wave {
   }
 }
   .Hello{
-      margin-bottom: 30px;
+      margin-bottom: 20px;
   }
   p{
       line-height: 2;
@@ -142,11 +145,26 @@ span.wave {
     left: -110%;
     top: 90%;
   }
+
+
+ 
   
   .btn:hover::before {
     animation: aaa 0.7s 1;
     top: -10%;
     left: -10%;
+  }
+
+  @media only screen and (max-width:470px){
+    .btn{
+      width: 2.5rem;
+      height: 2.5rem;
+      margin: 7px;  
+    }
+    .btn i {
+      line-height: 40px;
+      font-size: 1em;
+    }
   }
   
  #Whatido{
@@ -251,11 +269,14 @@ span.wave {
       font-size: 16px;
       line-height: normal;
     }
-
+    .Hello{
+      margin-bottom: 10px;
+    }
     h1{
       font-size: 25px;
     }
     p{
+      font-size: 16px;
       line-height: normal;
     }
       .section-1{
