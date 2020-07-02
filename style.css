@@ -23,10 +23,10 @@ p{
   
   
   .brand-name{
-      font-family: "Brush Script MT";
-      /* margin-bottom: 3px; */
+      /*font-family: "Brush Script MT";*/
+       margin-bottom: 3px; 
       
-      font-size: 70px;
+      font-size: 40px;
       font-weight: bold;
   }
   
@@ -273,6 +273,7 @@ span.wave {
   @media only screen and (max-width : 991px) and (min-width: 951px){
     .section-1{
       padding-right: 400px;
+      padding-bottom:10px;
     }
   }
   @media only screen and (max-width : 950px){
