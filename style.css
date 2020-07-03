@@ -15,9 +15,18 @@ p{
     text-decoration: none;
   }
   
-  @font-face{
+   @font-face{
     font-family: "Brush Script MT";
-    src: url("Image\brush\ script\ mt\ kursiv.ttf");
+    src: url("Image\brush script mt kursiv.ttf");
+  }
+
+
+  .brand-name{
+      font-family: "Brush Script MT";
+      /* margin-bottom: 3px; */
+      
+      font-size: 70px;
+      font-weight: bold;
   }
 
   
