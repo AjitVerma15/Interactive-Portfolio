@@ -15,15 +15,17 @@ p{
     text-decoration: none;
   }
   
-   @font-face{
+  @font-face{
     font-family: "Brush Script MT";
     src: url("Image\brush script mt kursiv.ttf");
   }
 
-
+  
+  
   .brand-name{
       font-family: "Brush Script MT";
       /* margin-bottom: 3px; */
+      
       font-size: 70px;
       font-weight: bold;
   }
@@ -270,8 +272,8 @@ span.wave {
   }
   @media only screen and (max-width : 991px) and (min-width: 951px){
     .section-1{
+      margin-top: auto;
       padding-right: 400px;
-      margin-top:1%;
     }
   }
   @media only screen and (max-width : 950px){
