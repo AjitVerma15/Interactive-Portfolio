@@ -26,6 +26,7 @@ body{
   .headerachor:hover {
     background-color: #f1f1f1;
   }
+ 
 
   #Section1{
     padding: 7% 0 3%;
@@ -209,7 +210,9 @@ body{
 
   .certificate{
     padding-top: 20px;
-    padding-left: 45px;
+  }
+  .certificate-text{
+    text-align: center;
   }
   
   .box-shadow { box-shadow:5px 5px 5px #d9dbdf; }

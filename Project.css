@@ -1,24 +1,24 @@
 body{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     margin: 0;
   }
 .body_section{
     padding : 3% 5% 1%;
 }
-  
+
   .brand-name{
       margin-bottom: 3px;
       font-size: 40px;
       font-weight: bold;
   }
-  
+
   .headerachor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
   }
-  
+
   .headerachor:hover {
     background-color: #f1f1f1;
   }
@@ -29,11 +29,23 @@ body{
   }
 
   .Section1{
-    padding: 7% 0 3%;
+    padding: 5% 0 3%;
   }
 
   .project-heading{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
     text-align: center;
+  }
+  .P-heading{
+    padding-bottom: 10px;
+    font-size : 40px;
+  }
+
+  .p-text{
+    font-size: 18px;
+    color:#868e96;
   }
 
   .Project-box{
@@ -41,18 +53,21 @@ body{
     text-decoration: none;
   }
 
+  .col-sm-6{
+    padding-bottom: 20px;
+  }
+
 
   .boxx {
     background-color: #fff;
     border-color: white;
-   
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.288);
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
   }
   .boxx:hover{
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.562);
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.952);
   }
 
-  
+
   .Project-box:hover{
     color: black;
     text-decoration: none;
@@ -64,7 +79,13 @@ body{
    float: right;
  }
 
-  
+ .project-text{
+   color :#868e96;
+   font-family: "Montserrat";
+   font-weight: 300;
+ }
+
+
   footer{
     padding-top: 2%;
     color: #868e96;

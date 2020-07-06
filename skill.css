@@ -32,11 +32,13 @@ body{
     height: 100%;
 }
 
-/* body { background: #E9E5E2;margin:2%; } */
+.Skill-heading{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 300;
+}
 
 #SkillBox {
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive;
     width: 95%;
     height: auto;
     margin: 40px auto;
@@ -323,8 +325,6 @@ to {
     margin-left: 15px;
     text-shadow: none;
     color: #fff;
-    font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
 }
 
  footer{
