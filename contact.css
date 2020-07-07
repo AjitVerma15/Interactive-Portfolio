@@ -1,0 +1,102 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    margin: 0;
+  }
+.body_section{
+    padding : 3% 5% 1%;
+}
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .brand-name{
+      margin-bottom: 3px;
+      font-size: 40px;
+      font-weight: bold;
+  }
+  
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+  
+  .headerachor:hover {
+    background-color: #f1f1f1;
+  }
+
+  #contact{
+      padding: 20px 20px 10px;
+  }
+ 
+
+  .first-section{
+      text-align: center;
+  }
+
+  .Profilepic{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 10px solid;
+    border-color: #6c63ff;
+}
+
+  .context{
+    text-align: center;
+}
+
+  h1{
+      font-weight: bold;
+  }
+   
+  p{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:#868e96;
+  }
+
+  .ico{
+    padding: 0;
+  }
+
+  .icon{
+      text-decoration: none;
+      list-style: none;
+      margin: 0 7px 0;
+      display: inline;
+      
+  }
+
+  .github{color: gray;}
+  .instagram{
+    color: #fb3958;
+  }
+  .linkedin{
+    color: #0e76a8;
+  }
+  .google{
+    color: #ea4335;
+  }
+
+  .github:hover , .instagram:hover , .google:hover , .linkedin:hover{
+      color: black;
+  }
+
+  .Resume{
+      background-color: #6c63ff;
+  }
+  .Resume:hover{
+      color: black;
+      background-color: white;
+  }
+
+  
+
+  footer{
+    padding-top: 2%;
+    color: #868e96;
+    text-align: center;
+  }

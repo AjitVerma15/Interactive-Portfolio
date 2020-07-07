@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
   }
 .body_section{
@@ -10,32 +10,34 @@ body{
 p{
   font-size: 18px;
 }
-  
+
   a{
     text-decoration: none;
   }
-  
+
   @font-face{
     font-family: "Brush Script MT";
     src: url("Image\brush script mt kursiv.ttf");
   }
 
-  
-  
+
+
   .brand-name{
-     /* font-family: "Brush Script MT";*/
+      /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
-      
+
       font-size: 40px;
       font-weight: bold;
   }
-  
+
+
+
   .headerachor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
   }
-  
+
   .headerachor:hover {
     background-color: #f1f1f1;
   }
@@ -70,7 +72,7 @@ span.wave {
 }
 
 .first-image{
-    position: absolute; 
+    position: absolute;
     right:0;
 }
 .boyimage{
@@ -138,12 +140,12 @@ span.wave {
     font-size: 1.625rem;
     transition: 0.2s linear;
   }
-  
+
   .btn:hover i {
     transform: scale(1.3);
     color: #f1f1f1;
   }
-  
+
   .btn::before {
     content: "";
     position: absolute;
@@ -156,8 +158,8 @@ span.wave {
   }
 
 
- 
-  
+
+
   .btn:hover::before {
     animation: aaa 0.7s 1;
     top: -10%;
@@ -168,14 +170,14 @@ span.wave {
     .btn{
       width: 2.5rem;
       height: 2.5rem;
-      margin: 7px;  
+      margin: 7px;
     }
     .btn i {
       line-height: 40px;
       font-size: 1em;
     }
   }
-  
+
  #Whatido{
      text-align: center;
      padding-top: 7%;
@@ -185,7 +187,7 @@ span.wave {
   .feature-1{
       padding-top: 5%;
       text-align: center;
-      } 
+      }
   .feature-2{
     padding-top: 5%;
     text-align: center;
@@ -200,7 +202,7 @@ span.wave {
       font-family: "Montserrat";
       font-weight: 300;
   }
-   
+
   .Feature-first-image{
       padding : 0 2% 10%;
   }
@@ -209,20 +211,20 @@ span.wave {
       padding : 5% 2% 0;
   }
 
- 
 
- 
+
+
 
   .Feature-svg-image{
       width: 100%;
-      height:100%;   
+      height:100%;
   }
   .Feature-svg-image-3{
     width: 84%;
     height: 84%;
   }
 
-  
+
 
 
   .dev-icon{
@@ -230,7 +232,7 @@ span.wave {
       display: inline;
       padding: 0%;
   }
- 
+
 
   .numpy{
     max-width: 100%;
@@ -294,7 +296,7 @@ span.wave {
       line-height: normal;
     }
       .section-1{
-          text-align: center;  
+          text-align: center;
       }
       .first-image{
           display: none;
@@ -303,10 +305,10 @@ span.wave {
       .pandas{
         width: 23%;
         height: 15%;
-      }  
+      }
   }
 
- 
+
 
 
 footer{
@@ -314,6 +316,3 @@ footer{
   color: #868e96;
   text-align: center;
 }
-
-  
-  
