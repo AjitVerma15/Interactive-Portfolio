@@ -46,6 +46,7 @@ body{
 
   .context{
     text-align: center;
+    padding-top: 20px;
 }
 
   h1{
@@ -93,7 +94,18 @@ body{
       background-color: white;
   }
 
-  
+  @media only screen and (max-width : 950px){
+
+    body,html{
+      text-align: center;
+      font-size: 16px;
+      line-height: normal;
+    }
+    h1{
+      font-size: 30px;
+    }
+
+  }
 
   footer{
     padding-top: 2%;

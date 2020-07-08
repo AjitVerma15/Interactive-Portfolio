@@ -85,6 +85,16 @@ body{
    font-weight: 300;
  }
 
+ 
+ @media only screen and (max-width : 950px){
+
+  body,html{
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
 
   footer{
     padding-top: 2%;
