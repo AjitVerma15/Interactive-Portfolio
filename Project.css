@@ -86,6 +86,12 @@ body{
  }
 
  
+ @media only screen and (max-width : 764px){
+   .project-heading{
+     width: 100%;
+   }
+ 
+}
 
 
   footer{

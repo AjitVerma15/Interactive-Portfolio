@@ -42,6 +42,7 @@ body{
     height: 300px;
     border: 10px solid;
     border-color: #6c63ff;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
 }
 
   .context{
@@ -94,6 +95,64 @@ body{
       background-color: white;
   }
 
+  .second-section{
+    text-align: center;
+  }
+
+  .connect{
+    font-weight: normal;
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:white;
+    background-color: #6c63ff;
+    padding: 10px 30px 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 10px;
+  }
+
+  .connection{
+    margin-top: 30px;
+    margin-left: 290px;
+    width:100%;
+    height:100%;
+    margin-bottom: 10px;
+  }
+
+  .sayhello{
+     margin-top: 15px;
+     border:1px solid #6c63ff;
+     border-radius: 10px;
+     padding: 10px 20px 10px;
+  }
+
+  .sayhello:hover{
+    text-align: none;
+    text-decoration: none;
+    color:white;
+    background-color: #6c63ff ;
+  }
+
+  span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  0.0deg) }
+     10% { transform: rotate(-10.0deg) }
+     20% { transform: rotate( 12.0deg) }
+     30% { transform: rotate(-10.0deg) }
+     40% { transform: rotate(  9.0deg) }
+     50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
+  }
+
+ 
   @media only screen and (max-width : 950px){
 
     body,html{
@@ -103,6 +162,12 @@ body{
     }
     h1{
       font-size: 30px;
+    }
+    .connect{
+      font-size: 20px;
+    }
+    .connection{
+      margin-left: 0px;
     }
 
   }
