@@ -11,10 +11,20 @@ body{
     text-decoration: none;
   }
 
-  .brand-name{
-      margin-bottom: 3px;
-      font-size: 40px;
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
       font-weight: bold;
+      color: #351458;
   }
 
 
