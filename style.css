@@ -22,9 +22,6 @@ p{
 
   }
 
-
-
-
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
@@ -275,6 +272,15 @@ span.wave {
     .feature-web{
       order:2;
     }
+      
+      .brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 40px;
+      font-weight: bold;
+      color: #351458;
+  }
   }
   @media only screen and (max-width : 991px) and (min-width: 951px){
     .section-1{
