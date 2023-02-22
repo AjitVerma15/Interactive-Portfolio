@@ -19,7 +19,8 @@ p{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
+    /* https://developer.chrome.com/docs/lighthouse/performance/font-display/?utm_source=lighthouse&utm_medium=devtools */
+    font-display: swap;
   }
 
 .brand-name ,.navbar-light .navbar-brand{
