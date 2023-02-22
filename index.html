@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- https://developer.chrome.com/docs/lighthouse/seo/meta-description/?utm_source=lighthouse&utm_medium=devtools -->
+  <meta name="description" content="Personal Portfolio">
   <title>Ajit's Portfolio</title>
   <link rel="icon" href="Image/engineer.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -49,7 +51,10 @@
           <section id = "Home">
               <div class="row column1">
                 <div class="col-lg-6 col-md-6 first-image">
-                    <img class = "boyimage" src="Image/20200630_162659.gif" alt="">
+                  <!-- https://developer.chrome.com/en/docs/lighthouse/performance/efficient-animated-content/ -->
+                    <video autoplay loop playsinline class="boyimage" alt="">
+                      <source src="Video/boyImage.mp4" type="video/mp4"/>
+                    </video>
                 </div>  
                   <div class="col-lg-6 section-1">
                       <h1 class = "Hello">Hello All ! I'm Ajit <span class="wave">👋</span></h1>
@@ -57,16 +62,17 @@
                           Machine Learning and Web Development and want to develop sustainable and 
                           scalable social and technical systems to create impact</p>
                           <div class=social_media_icon>
-                            <a class="btn" href="https://www.instagram.com/ajit.verma_/" target=_blank>
+                            <!-- https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name -->
+                            <a class="btn" aria-label="button" href="https://www.instagram.com/ajit.verma_/" target=_blank>
                               <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="btn" href="https://www.linkedin.com/in/ajit-verma-70b9b0196/" target=_blank>
+                            <a class="btn" aria-label="button" href="https://www.linkedin.com/in/ajit-verma-70b9b0196/" target=_blank>
                               <i class="fab fa-linkedin" aria-hidden="true"></i>
                             </a>
-                            <a class="btn" href="https://github.com/AjitVerma15" target=_blank>
+                            <a class="btn" aria-label="button" href="https://github.com/AjitVerma15" target=_blank>
                               <i class="fab fa-github"></i>
                             </a>
-                            <a class="btn" href="mailto:ajitverma1503@gmail.com" target=_blank>
+                            <a class="btn" aria-label="button" href="mailto:ajitverma1503@gmail.com" target=_blank>
                               <i class="fab fa-google"></i>
                             </a>
                           </div>
