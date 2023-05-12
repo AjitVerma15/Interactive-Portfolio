@@ -1,10 +1,49 @@
-
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
   }
 .body_section{
     padding : 3% 5% 1%;
+}
+
+.glow-effect {
+  font-size: 36px;
+  color: #ffffff; /* Set the default text color to white */
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff; /* Default glowing effect */
+  transition: text-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.glow-effect:hover {
+  text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff; /* Modify glowing effect on hover */
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* CSS for dark mode */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.navbar-light-mode {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+/* CSS for dark mode navigation */
+.navbar-dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+.hello-light-mode {
+  color: #000000;
+}
+
+/* CSS for dark mode Hello section */
+.hello-dark-mode {
+  color: black;
 }
 
 p{
