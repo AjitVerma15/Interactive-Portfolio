@@ -14,7 +14,7 @@ body{
 }
 
 .glow-effect:hover {
-  text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff; /* Modify glowing effect on hover */
+  text-shadow: 0 0 200px red;
 }
 
 body.light-mode {
@@ -361,7 +361,36 @@ span.wave {
 
 
 footer{
-  padding-top: 2%;
+  padding: 2%;
   color: #868e96;
   text-align: center;
+  background: black;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* CSS for the powerful blue neon glowing text effect */
+.neon-text {
+  color: #00c3ff; /* Text color */
+  text-shadow: 0 0 5px #00c3ff, 0 0 20px #00c3ff, 0 0 40px #00c3ff, 0 0 80px #00c3ff, 0 0 120px #00c3ff, 0 0 140px #00c3ff, 0 0 180px #00c3ff; /* Multiple shadows for the powerful neon effect */
+  animation: glowing 1.5s ease-in-out infinite alternate; /* Adjust duration and animation timing as needed */
+}
+.neon-text-heading {
+  color: #00c3ff; /* Text color */
+  text-shadow: 0 0 5px #00c3ff, 0 0 20px #00c3ff, 0 0 40px #00c3ff, 0 0 80px #00c3ff, 0 0 120px #00c3ff, 0 0 140px #00c3ff, 0 0 180px #00c3ff; /* Multiple shadows for the powerful neon effect */
+  animation: glowing 1.5s ease-in-out infinite alternate; /* Adjust duration and animation timing as needed */
+}
+
+/* Keyframes for the glowing animation */
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #00c3ff;
+  }
+  100% {
+    text-shadow: 0 0 20px #00c3ff;
+  }
+}
+
