@@ -2,23 +2,23 @@ body{
     font-family: 'Open Sans', sans-serif; 
     font-weight: 700;
     margin: 0;
-  }
+}
+
 .body_section{
     padding : 3% 5% 1%;
 }
   
-  a{
+a{
     text-decoration: none;
-  }
+}
   
    @font-face{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
   }
 
-.brand-name ,.navbar-light .navbar-brand{
+.brand-name, .navbar-light, .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Lovely Home";
@@ -26,8 +26,9 @@ body{
       font-weight: bold;
       color: #351458;
   }
+    
   @media only screen and (max-width : 764px){
-      .brand-name ,.navbar-light .navbar-brand{
+      .brand-name, .navbar-light, .navbar-brand{
       font-family: "Lovely Home";
       font-size: 40px;
       font-weight: bold;
@@ -35,17 +36,16 @@ body{
   }
 }
   
-  .headerachor {
+  .headeranchor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
   }
   
-  .headerachor:hover {
+  .headeranchor:hover {
     background-color: #f1f1f1;
   }
  
-
   #Section1{
     padding: 7% 0 3%;
   }
@@ -69,6 +69,7 @@ body{
   .fab{
     color:#2ec866;
   }
+    
   .fab:hover{
     color: black;
   }
@@ -77,6 +78,7 @@ body{
     color: gray;
     margin-bottom: 40px;
   }
+    
   .iconify:hover{
     color: black;
   }
@@ -158,6 +160,7 @@ body{
     color:black;
   text-shadow:1px 1px 1px rgba(0,0,0,0.3);
   }
+    
   .timeline-section:before{
     content:'';
     position:absolute;
@@ -179,8 +182,6 @@ body{
     border:1px solid #17191B;
     border-radius:100%;
   }
-  
-  
   
   .timeline-box{
     position:relative;
@@ -209,7 +210,6 @@ body{
   .degree{
       font-size: 15px;
   }
- 
   
   .box-title i{
     margin-right:5px;
@@ -229,18 +229,17 @@ body{
   .certificate{
     padding-top: 20px;
   }
+    
   .certificate-text{
     text-align: center;
   }
   
-  .box-shadow { box-shadow:5px 5px 5px #d9dbdf; }
-
-  
-
+  .box-shadow { 
+      box-shadow:5px 5px 5px #d9dbdf;
+  }
 
   footer{
     padding-top: 2%;
     color: #868e96;
     text-align: center;
   }
-  
