@@ -3,6 +3,7 @@ body{
     font-weight: 700;
     margin: 0;
   }
+
 .body_section{
     padding : 3% 5% 1%;
 }
@@ -11,10 +12,9 @@ body{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
   }
 
-.brand-name ,.navbar-light .navbar-brand{
+.brand-name, .navbar-light, .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Lovely Home";
@@ -22,6 +22,7 @@ body{
       font-weight: bold;
       color: #351458;
   }
+
   @media only screen and (max-width : 764px){
       .brand-name ,.navbar-light .navbar-brand{
       font-family: "Lovely Home";
@@ -30,7 +31,8 @@ body{
       color: #351458;
   }
 }
-  .headerachor {
+
+  .headeranchor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
@@ -55,6 +57,7 @@ body{
     padding: 10px;
     text-align: center;
   }
+
   .P-heading{
     padding-bottom: 10px;
     font-size : 40px;
@@ -74,16 +77,15 @@ body{
     padding-bottom: 20px;
   }
 
-
   .boxx {
     background-color: #fff;
     border-color: white;
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
   }
+
   .boxx:hover{
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.952);
   }
-
 
   .Project-box:hover{
     color: black;
@@ -101,7 +103,6 @@ body{
    font-family: "Montserrat";
    font-weight: 300;
  }
-
  
  @media only screen and (max-width : 764px){
    .project-heading{
@@ -109,7 +110,6 @@ body{
    }
  
 }
-
 
   footer{
     padding-top: 2%;
