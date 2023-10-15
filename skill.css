@@ -3,6 +3,7 @@ body{
     font-weight: 700;
     margin: 0;
   }
+
 .body_section{
     padding : 3% 5% 1%;
 }
@@ -15,7 +16,6 @@ body{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
   }
 
 .brand-name ,.navbar-light .navbar-brand{
@@ -36,8 +36,7 @@ body{
   }
 }
 
-
-  .headerachor {
+  .headeranchor {
     color: black;
     margin: 0 7px 0 7px;
     font-size: 25px;
@@ -76,12 +75,14 @@ body{
     -ms-border-radius:20px;
     -moz-border-radius:20px;
 }
+    
 #SkillBox img {
     width: 20%;
     height: 10%;
     margin: auto 35%;
     padding: 10px;
 }
+    
 .SkillBar {
     width: 90%;
     height: 50px;
@@ -91,7 +92,6 @@ body{
     background: #c5c2ff;
     margin: 20px auto;
 }
-
 
 #Skill-HTML {
     width: 90%;
@@ -104,7 +104,8 @@ body{
     position: absolute;
     background-color:#6c63ff;
 }
-@keyframes Animate-HTML {
+
+    @keyframes Animate-HTML {
     from {
     width: 10px;
 }
@@ -139,6 +140,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-CSS {
     from {
     width: 10px;
@@ -163,7 +165,9 @@ to {
 }
 to {
     width: 70%}
-}#Skill-Python {
+}
+
+#Skill-Python {
     border-radius:20px;
     animation: Animate-Python 5s;
     -webkit-animation: Animate-Python 5s;
@@ -174,6 +178,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-Python {
     from {
     width: 10px;
@@ -209,6 +214,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-JS {
     from {
     width: 10px;
@@ -246,6 +252,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-C {
     from {
     width: 10px;
@@ -281,6 +288,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-Cplus {
     from {
     width: 10px;
@@ -316,6 +324,7 @@ to {
     position: absolute;
     background-color: #6c63ff;
 }
+
 @keyframes Animate-SQL {
     from {
     width: 10px;
@@ -353,7 +362,6 @@ to {
 
 
 @media only screen and (max-width : 950px){
-
     body,html{
       text-align: center;
       font-size: 16px;
