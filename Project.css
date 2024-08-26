@@ -1,118 +1,122 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    margin: 0;
-  }
-.body_section{
-    padding : 3% 5% 1%;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.body_section {
+  padding: 3% 5% 1%;
 }
 
-  @font-face{
+@font-face {
+  font-family: "Lovely Home";
+  src: local("Lovely Home"), url("Image/LovelyHome-9aBZ.ttf") format("truetype");
+}
+
+.brand-name,
+.navbar-light .navbar-brand {
+  /* font-family: "Brush Script MT"; */
+  /* margin-bottom: 3px; */
+  font-family: "Lovely Home";
+  font-size: 50px;
+  font-weight: bold;
+  color: #351458;
+}
+@media only screen and (max-width: 764px) {
+  .brand-name,
+  .navbar-light .navbar-brand {
     font-family: "Lovely Home";
-    src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
-  }
-
-.brand-name ,.navbar-light .navbar-brand{
-      /* font-family: "Brush Script MT"; */
-      /* margin-bottom: 3px; */
-      font-family: "Lovely Home";
-      font-size: 50px;
-      font-weight: bold;
-      color: #351458;
-  }
-  @media only screen and (max-width : 764px){
-      .brand-name ,.navbar-light .navbar-brand{
-      font-family: "Lovely Home";
-      font-size: 40px;
-      font-weight: bold;
-      color: #351458;
+    font-size: 40px;
+    font-weight: bold;
+    color: #351458;
   }
 }
-  .headerachor {
-    color: black;
-    margin: 0 7px 0 7px;
-    font-size: 25px;
-  }
-
-  .headerachor:hover {
-    background-color: #f1f1f1;
-  }
-
-  .projectimage{
-      width:100%;
-      height:100%;
-  }
-
-  .Section1{
-    padding: 5% 0 3%;
-  }
-
-  .project-heading{
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    text-align: center;
-  }
-  .P-heading{
-    padding-bottom: 10px;
-    font-size : 40px;
-  }
-
-  .p-text{
-    font-size: 18px;
-    color:#868e96;
-  }
-
-  .Project-box{
-    color:black;
-    text-decoration: none;
-  }
-
-  .col-sm-6{
-    padding-bottom: 20px;
-  }
-
-
-  .boxx {
-    background-color: #fff;
-    border-color: white;
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
-  }
-  .boxx:hover{
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.952);
-  }
-
-
-  .Project-box:hover{
-    color: black;
-    text-decoration: none;
-  }
-
- .iconify{
-   width:40px;
-   height: 40px;
-   float: right;
- }
-
- .project-text{
-   color :#868e96;
-   font-family: "Montserrat";
-   font-weight: 300;
- }
-
- 
- @media only screen and (max-width : 764px){
-   .project-heading{
-     width: 100%;
-   }
- 
+.headerachor {
+  color: black;
+  margin: 0 7px 0 7px;
+  font-size: 25px;
 }
 
+.headerachor:hover {
+  background-color: #f1f1f1;
+}
 
-  footer{
-    padding-top: 2%;
-    color: #868e96;
-    text-align: center;
+.projectimage {
+  width: 100%;
+  height: 100%;
+}
+
+.Section1 {
+  padding: 5% 0 3%;
+}
+
+.project-heading {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+.P-heading {
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.p-text {
+  font-size: 18px;
+  color: #868e96;
+}
+
+.Project-box {
+  color: black;
+  text-decoration: none;
+}
+
+.col-sm-6 {
+  padding-bottom: 20px;
+}
+
+.boxx {
+  background-color: #fff;
+  border-color: white;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
+}
+.boxx:hover {
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.952);
+}
+
+.Project-box:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.iconify {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.project-text {
+  color: #868e96;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 764px) {
+  .project-heading {
+    width: 100%;
   }
+}
+
+@media only screen and (max-width: 950px) {
+  body,
+  html {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+footer {
+  padding-top: 2%;
+  color: #868e96;
+  text-align: center;
+}
