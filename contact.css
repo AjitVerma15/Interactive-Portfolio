@@ -1,197 +1,211 @@
-body{
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 700;
-    margin: 0;
-  }
-.body_section{
-    padding : 3% 5% 1%;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin: 0;
 }
-  
-  a{
-    text-decoration: none;
-  }
-  
-  @font-face{
+.body_section {
+  padding: 3% 5% 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Lovely Home";
+  src: local("Lovely Home"), url("Image/LovelyHome-9aBZ.ttf") format("truetype");
+}
+
+.brand-name,
+.navbar-light .navbar-brand {
+  /* font-family: "Brush Script MT"; */
+  /* margin-bottom: 3px; */
+  font-family: "Lovely Home";
+  font-size: 50px;
+  font-weight: bold;
+  color: #351458;
+}
+@media only screen and (max-width: 764px) {
+  .brand-name,
+  .navbar-light .navbar-brand {
     font-family: "Lovely Home";
-    src:local('Lovely Home'), 
-    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
-
-  }
-
-.brand-name ,.navbar-light .navbar-brand{
-      /* font-family: "Brush Script MT"; */
-      /* margin-bottom: 3px; */
-      font-family: "Lovely Home";
-      font-size: 50px;
-      font-weight: bold;
-      color: #351458;
-  }
-  @media only screen and (max-width : 764px){
-      .brand-name ,.navbar-light .navbar-brand{
-      font-family: "Lovely Home";
-      font-size: 40px;
-      font-weight: bold;
-      color: #351458;
+    font-size: 40px;
+    font-weight: bold;
+    color: #351458;
   }
 }
-  
-  .headerachor {
-    color: black;
-    margin: 0 7px 0 7px;
-    font-size: 25px;
-  }
-  
-  .headerachor:hover {
-    background-color: #f1f1f1;
-  }
 
-  #contact{
-      padding: 20px 20px 10px;
-  }
- 
-
-  .first-section{
-      text-align: center;
-  }
-
-  .Profilepic{
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
-    border: 10px solid;
-    border-color: #6c63ff;
-    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
+.headerachor {
+  color: black;
+  margin: 0 7px 0 7px;
+  font-size: 25px;
 }
 
-  .context{
+.headerachor:hover {
+  background-color: #f1f1f1;
+}
+
+#contact {
+  padding: 20px 20px 10px;
+}
+
+.first-section {
+  text-align: center;
+}
+
+.Profilepic {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  border: 10px solid;
+  border-color: #6c63ff;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);
+}
+
+.context {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #868e96;
+}
+
+.ico {
+  padding: 0;
+}
+
+.icon {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 7px 0;
+  display: inline;
+}
+
+.github {
+  color: gray;
+}
+.instagram {
+  color: #fb3958;
+}
+.linkedin {
+  color: #0e76a8;
+}
+.google {
+  color: #ea4335;
+}
+
+.github:hover,
+.instagram:hover,
+.google:hover,
+.linkedin:hover {
+  color: black;
+}
+
+.Resume {
+  background-color: #6c63ff;
+}
+.Resume:hover {
+  color: black;
+  background-color: white;
+}
+
+.second-section {
+  text-align: center;
+}
+
+.connect {
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: #6c63ff;
+  padding: 10px 30px 10px;
+  margin-left: 12%;
+  margin-right: 12%;
+  border-radius: 10px;
+}
+
+.connection {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.sayhello {
+  margin-top: 15px;
+  border: 1px solid #6c63ff;
+  border-radius: 10px;
+  padding: 10px 20px 10px;
+}
+
+.sayhello:hover {
+  text-align: none;
+  text-decoration: none;
+  color: white;
+  background-color: #6c63ff;
+}
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  body,
+  html {
     text-align: center;
-    padding-top: 20px;
-}
-
-  h1{
-      font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
   }
-   
-  p{
-      padding-top: 5px;
-      padding-bottom: 5px;
-      color:#868e96;
-  }
-
-  .ico{
-    padding: 0;
-  }
-
-  .icon{
-      text-decoration: none;
-      list-style: none;
-      margin: 0 7px 0;
-      display: inline;
-      
-  }
-
-  .github{color: gray;}
-  .instagram{
-    color: #fb3958;
-  }
-  .linkedin{
-    color: #0e76a8;
-  }
-  .google{
-    color: #ea4335;
-  }
-
-  .github:hover , .instagram:hover , .google:hover , .linkedin:hover{
-      color: black;
-  }
-
-  .Resume{
-      background-color: #6c63ff;
-  }
-  .Resume:hover{
-      color: black;
-      background-color: white;
-  }
-
-  .second-section{
-    text-align: center;
-  }
-
-  .connect{
-    font-weight: normal;
-    margin-top:30px;
-    margin-bottom: 20px;
+  h1 {
     font-size: 30px;
-    color:white;
-    background-color: #6c63ff;
-    padding: 10px 30px 10px;
-    margin-left: 12%;
-    margin-right: 12%;
-    border-radius: 10px;
   }
-
-  .connection{
-    margin-top: 30px;
-    margin-left: 290px;
-    width:100%;
-    height:100%;
-    margin-bottom: 10px;
+  .connect {
+    font-size: 20px;
   }
-
-  .sayhello{
-     margin-top: 15px;
-     border:1px solid #6c63ff;
-     border-radius: 10px;
-     padding: 10px 20px 10px;
+  .connection {
+    margin-left: 0px;
   }
+}
 
-  .sayhello:hover{
-    text-align: none;
-    text-decoration: none;
-    color:white;
-    background-color: #6c63ff ;
-  }
-
-  span.wave {
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-  }
-  
-  @keyframes wave-animation {
-      0% { transform: rotate(  0.0deg) }
-     10% { transform: rotate(-10.0deg) }
-     20% { transform: rotate( 12.0deg) }
-     30% { transform: rotate(-10.0deg) }
-     40% { transform: rotate(  9.0deg) }
-     50% { transform: rotate(  0.0deg) }
-    100% { transform: rotate(  0.0deg) }
-  }
-
- 
-  @media only screen and (max-width : 950px){
-
-    body,html{
-      text-align: center;
-      font-size: 16px;
-      line-height: normal;
-    }
-    h1{
-      font-size: 30px;
-    }
-    .connect{
-      font-size: 20px;
-    }
-    .connection{
-      margin-left: 0px;
-    }
-
-  }
-
-  footer{
-    padding-top: 2%;
-    color: #868e96;
-    text-align: center;
-  }
+footer {
+  padding-top: 2%;
+  color: #868e96;
+  text-align: center;
+}

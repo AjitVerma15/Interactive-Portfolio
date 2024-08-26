@@ -1,0 +1,55 @@
+:root {
+  --dark-background-color: #171c28;
+  --dark-text-color: #ffffff;
+  --dark-button-color: #55198b;
+}
+
+iframe {
+  border: none;
+  width: 92px;
+  height: 65px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    align-items: center;
+  }
+}
+
+.dark-mode {
+  background-color: var(--dark-background-color) !important;
+  background-image: var(--dark-background-color) !important;
+  color: var(--dark-text-color) !important;
+}
+
+.dark-mode .card-title {
+  color: var(--dark-text-color);
+}
+
+.dark-mode .card {
+  background-color: var(--dark-background-color);
+}
+
+.dark-mode .column1 {
+  background-image: var(--dark-background-color) !important;
+}
+
+.dark-mode .nav-link {
+  color: var(--dark-text-color) !important;
+}
+
+.dark-mode .headerachor:hover {
+  background-color: var(--dark-button-color) !important;
+}
+
+.dark-mode .brand-name {
+  color: var(--dark-text-color) !important;
+}
+
+.dark-mode .brand-name:hover {
+  color: var(--dark-button-color) !important;
+}
+
+.dark-mode p {
+  color: #fffff0 !important;
+}
