@@ -30,9 +30,7 @@ visit the website [here.](https://ajitverma15.github.io/Interactive-Portfolio/)
 - [Hackerblock](https://hack.codingblocks.com/)
 
 ## For the Future
-
-I'm in the process of learning javascript So,i didn't add any of it
-If you can help us with these.Please don't hesitate to open a pull request.
+If you can help us with these. Please don't hesitate to open a pull request.
 
 - Add a page loader
 - Add some Animation
@@ -42,7 +40,7 @@ If you can help us with these.Please don't hesitate to open a pull request.
 
 - Added Dark Mode
 
-  ![Dark Mode](https://s2.ezgif.com/tmp/ezgif-2-970d3778ab.gif) - [PR](https://github.com/AjitVerma15/Interactive-Portfolio/pull/18) 26/08/2024
+  ![Dark Mode](https://github.com/AjitVerma15/Interactive-Portfolio/blob/master/Image/dark-mode-update.gif) - [PR](https://github.com/AjitVerma15/Interactive-Portfolio/pull/18) 26/08/2024
 
 ## Reference
 
