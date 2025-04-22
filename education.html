@@ -2,18 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ajit's Portfolio</title>
+
+    <!-- Favicon -->
     <link rel="icon" href="Image/engineer.ico" />
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="education.css" />
     <link rel="stylesheet" href="dark-mode.css" />
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap"
       rel="stylesheet"
@@ -23,46 +30,18 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-    />
+    <!-- FontAwesome Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     />
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Iconify for Additional Icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-WZXPVQDR2Q"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-WZXPVQDR2Q");
-  </script>
 
   <body class="container-fluid body_section">
+    <!-- Header Section -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand brand-name" href="#">Ajit Verma</a>
@@ -84,9 +63,7 @@
               <a class="nav-link headerachor" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link headerachor" href="education.html"
-                >Education</a
-              >
+              <a class="nav-link headerachor active" href="education.html">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link headerachor" href="skill.html">Skills</a>
@@ -102,16 +79,23 @@
                 id="toggle-iframe"
                 onload="onIframeLoad()"
                 src="toggle.html"
+                title="Toggle Dark Mode"
               ></iframe>
             </li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- Competitive Programming Section -->
     <section id="Section1">
       <div class="row">
         <div class="col-lg-6 col-md">
-          <img class="Programming" src="Image/Programming.svg" alt="" />
+          <img
+            class="Programming"
+            src="Image/Programming.svg"
+            alt="Programming Illustration"
+          />
         </div>
         <div class="col-lg-6 col-md Coding">
           <h1>Competitive Programming</h1>
@@ -120,12 +104,17 @@
               <a
                 href="https://www.hackerrank.com/Ajitverma?hr_r=1"
                 target="_blank"
+                aria-label="HackerRank"
               >
-                <i class="fab fa-hackerrank fa-4x"></i
-              ></a>
+                <i class="fab fa-hackerrank fa-4x"></i>
+              </a>
             </li>
             <li>
-              <a href="https://www.hackerearth.com/@ajit457" target="_blank">
+              <a
+                href="https://www.hackerearth.com/@ajit457"
+                target="_blank"
+                aria-label="HackerEarth"
+              >
                 <i
                   class="iconify"
                   data-icon="simple-icons:hackerearth"
@@ -139,23 +128,27 @@
         </div>
       </div>
     </section>
+
+    <!-- Education Timeline Section -->
     <section>
       <div class="container">
         <div class="Heading">
           <h1>Degrees Received</h1>
-          <br />
+          <hr />
         </div>
         <div class="timeline">
           <div class="timeline-month">Education</div>
+
+          <!-- University Education -->
           <div class="timeline-section">
             <div class="timeline-date">2017 - Present</div>
             <div class="row">
               <div class="col-lg">
                 <div class="timeline-box">
                   <div class="box-title">
-                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>J.C.
-                    Bose University of Science and Technology, YMCA
-                    <p class="degree">B.tech in Computer Engineering</p>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    J.C. Bose University of Science and Technology, YMCA
+                    <p class="degree">B.Tech in Computer Engineering</p>
                   </div>
                   <div class="box-content">
                     <a
@@ -167,8 +160,8 @@
                       >Website</a
                     >
                     <div class="box-item">
-                      💥 I have studied software engineering subjects like Data
-                      Structures, Algorithms, DBMS, OS, CA, CN etc.
+                      💥 Studied subjects like Data Structures, Algorithms,
+                      DBMS, OS, CA, CN, etc.
                     </div>
                     <div class="box-item"><b>💥 CGPA</b>: 7.14</div>
                   </div>
@@ -177,26 +170,20 @@
             </div>
           </div>
 
+          <!-- High School Education -->
           <div class="timeline-section">
             <div class="timeline-date">2015 - 2017</div>
             <div class="row">
               <div class="col-lg">
                 <div class="timeline-box">
                   <div class="box-title">
-                    <i class="fas fa-school" aria-hidden="true"></i> G.B.S.S
-                    School, Sarojini Nagar
+                    <i class="fas fa-school" aria-hidden="true"></i>
+                    G.B.S.S School, Sarojini Nagar
                     <p class="degree">Senior Secondary Education</p>
                   </div>
                   <div class="box-content">
-                    <a
-                      class="btn btn-sm btn-dark float-right"
-                      role="button"
-                      style="color: white"
-                      >Details</a
-                    >
                     <div class="box-item">
-                      💥 I have studied the subjects Physics, Chemistry,
-                      Mathematics etc.
+                      💥 Studied subjects like Physics, Chemistry, Mathematics.
                     </div>
                     <div class="box-item"><b>💥 Percentage</b>: 80%</div>
                   </div>
@@ -207,12 +194,15 @@
         </div>
       </div>
     </section>
+
+    <!-- Certifications Section -->
     <section id="section3">
       <div class="Heading">
         <h1>Certifications</h1>
       </div>
       <div class="container certificate">
         <div class="row">
+          <!-- Certification Card -->
           <div class="col-md-4">
             <a
               target="_blank"
@@ -222,19 +212,19 @@
                 <img
                   class="card-img-top"
                   src="Image/C++.jpg"
-                  alt="Card image cap"
+                  alt="C++ Certification"
                 />
                 <div class="card-body">
                   <p class="card-text certificate-text">
-                    C++ with Data Structures and Algorithms <br /><span
-                      style="color: gray"
-                      >-by Coding Blocks</span
-                    >
+                    C++ with Data Structures and Algorithms <br />
+                    <span style="color: gray">-by Coding Blocks</span>
                   </p>
                 </div>
               </div>
             </a>
           </div>
+
+          <!-- Certification Card -->
           <div class="col-md-4">
             <a
               target="_blank"
@@ -244,7 +234,7 @@
                 <img
                   class="card-img-top"
                   src="Image/JavaScript.jpg"
-                  alt="Card image cap"
+                  alt="JavaScript Certification"
                 />
                 <div class="card-body">
                   <p class="card-text certificate-text">JavaScript Basics</p>
@@ -255,6 +245,8 @@
               </div>
             </a>
           </div>
+
+          <!-- Certification Card -->
           <div class="col-md-4">
             <a
               target="_blank"
@@ -264,7 +256,7 @@
                 <img
                   class="card-img-top"
                   src="Image/Data Science.jpg"
-                  alt="Card image cap"
+                  alt="Data Science Certification"
                 />
                 <div class="card-body">
                   <p class="card-text certificate-text">Data Science</p>
@@ -276,7 +268,30 @@
         </div>
       </div>
     </section>
-    <footer class="footer">Made with ❤️ by Ajit Verma</footer>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      Made with ❤️ by Ajit Verma
+    </footer>
+
+    <!-- Dark Mode Script -->
     <script src="dark-mode.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
