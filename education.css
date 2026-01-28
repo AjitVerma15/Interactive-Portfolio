@@ -2,6 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin: 0;
+  background-color: #FCF5E7;
+  color: #CD5E77;
 }
 .body_section {
   padding: 3% 5% 1%;
@@ -31,7 +33,7 @@ a {
     font-family: "Lovely Home";
     font-size: 40px;
     font-weight: bold;
-    color: #351458;
+    color: #CD5E77;
   }
 }
 
@@ -103,7 +105,7 @@ a {
   content: "";
   width: 4px;
   height: calc(100% - 150px);
-  background: #6f67ff;
+  background: #CD5E77;
   left: 14px;
   top: 5px;
   border-radius: 4px;
@@ -113,7 +115,7 @@ a {
   color: black;
   position: relative;
   padding: 4px 15px 4px 35px;
-  background-color: #a6a1ff;
+  background-color: #CD5E77;
   display: inline-block;
   width: auto;
   border-radius: 40px;
@@ -142,7 +144,7 @@ a {
   content: "";
   width: 20px;
   height: 20px;
-  background: #362cff;
+  background: pink;
   border-radius: 100%;
   border: 1px solid #17191b;
   left: 5px;
@@ -158,7 +160,7 @@ a {
 .timeline-date {
   margin-bottom: 15px;
   padding: 2px 15px;
-  background: #a6a1ff;
+  background: #CD5E77;
   position: relative;
   display: inline-block;
   border-radius: 20px;
@@ -171,7 +173,7 @@ a {
   position: absolute;
   width: 30px;
   height: 1px;
-  background-color: #362cff;
+  background-color: pink;
   top: 12px;
   left: 20px;
 }
@@ -181,7 +183,7 @@ a {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #362cff;
+  background: pink;
   top: 7px;
   left: 11px;
   border: 1px solid #17191b;
@@ -191,7 +193,7 @@ a {
 .timeline-box {
   position: relative;
   color: black;
-  background-color: #a6a1ff;
+  background-color: lightpink;
   border-radius: 15px;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;

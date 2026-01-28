@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ajit's Portfolio</title>
-    <link rel="icon" href="Image/engineer.ico" />
+    <title>Jelyka's Portfolio</title>
+    <link rel="icon" href="Image/Character.png" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -62,7 +63,7 @@
   <body class="container-fluid body_section">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand brand-name" href="#">Ajit Verma</a>
+        <a class="navbar-brand brand-name" style="color: #CD5E77;" href="#">Jelyka</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -78,28 +79,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link headerachor" href="index.html">Home</a>
+              <a class="nav-link headerachor" style="color: #CD5E77;" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link headerachor" href="education.html"
+              <a class="nav-link headerachor" style="color: #CD5E77;" href="education.html"
                 >Education</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link headerachor" href="skill.html">Skills</a>
+              <a class="nav-link headerachor" style="color: #CD5E77;" href="skill.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link headerachor" href="project.html">Projects</a>
+              <a class="nav-link headerachor" style="color: #CD5E77;" href="project.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link headerachor" href="contact.html">Contact Me</a>
-            </li>
-            <li>
-              <iframe
-                id="toggle-iframe"
-                onload="onIframeLoad()"
-                src="toggle.html"
-              ></iframe>
+              <a class="nav-link headerachor" style="color: #CD5E77;" href="contact.html">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -108,97 +102,81 @@
     <section class="Section1">
       <div class="row">
         <div class="col-lg-6 col-md-6">
-          <img class="skill-img" src="Image/Skills.svg" alt="" />
+          <img class="skill-img" src="Image/Skills-bg.png" style="width: 600px; margin-left: 100px;" alt="" />
         </div>
-        <div class="col-lg-6 col-md-6">
-          <div id="SkillBox">
-            <center class="Skill-heading">Proficiency</center>
-            <div class="SkillBar">
-              <div id="Skill-Cplus">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:c-plusplus"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
 
-            <div class="SkillBar">
-              <div id="Skill-C">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:c"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
+        <div class="cards-container">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="corner-icon" src="Image/Soft Skills.png"></img>
+                <p class="title">SOFT SKILLS</p>
+                <p class="subtitle">Hover to see details</p>
               </div>
-            </div>
-
-            <div class="SkillBar">
-              <div id="Skill-Python">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:python"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
-
-            <div class="SkillBar">
-              <div id="Skill-HTML">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:html-5"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
-
-            <div class="SkillBar">
-              <div id="Skill-CSS">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:css-3"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
-
-            <div class="SkillBar">
-              <div id="Skill-JS">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="logos:javascript"
-                  data-inline="false"
-                  data-width="35"
-                  data-height="35"
-                ></span>
-              </div>
-            </div>
-
-            <div class="SkillBar">
-              <div id="Skill-SQL">
-                <span
-                  class="Skill-Area iconify"
-                  data-icon="dashicons:database"
-                  data-inline="false"
-                  style="color: black"
-                  data-width="35"
-                  data-height="35"
-                ></span>
+              <div class="flip-card-back">
+                <p class="title">Key Skills</p>
+                <ul class="skills-list">
+                  <li>Public Speaking & Communication</li>
+                  <li>Critical Thinking & Problem Solving</li>
+                  <li>Leadership & Team Collaboration</li>
+                  <li>Creativity & Initiative</li>
+                  <li>Attention to Detail</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="corner-icon" src="Image/Technical Skills.png" style="width: 200px; height: 250px; margin: 0 auto;"></img>
+                <p class="title" style="margin-top: 60px;">TECHNICAL SKILLS</p>
+                <p class="subtitle">Hover to see details</p>
+              </div>
+
+              <div class="flip-card-back">
+                <div class="corner-icon">🖥️</div>
+                <p class="title">Key Skills</p>
+
+                <div class="skill">
+                  <p>Figma & AutoCad</p>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <p>Canva, Adobe Photoshop, and Premiere Pro</p>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <p>Social Media Manager</p>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 98%;"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <p>Microsoft Office & Google Workspace</p>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <p>Python Programming & RStudio</p>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
       </div>
     </section>
     <footer class="footer">Made with ❤️ by Ajit Verma</footer>

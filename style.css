@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  background-color: #FBF1E5;
+  color: #CD5E77;
 }
 .body_section {
   padding: 3% 5% 1%;
@@ -26,29 +28,35 @@ a {
   font-family: "Lovely Home";
   font-size: 50px;
   font-weight: bold;
-  color: #351458;
+  color: #CD5E77;
 }
 
 .headerachor {
-  color: black;
   margin: 0 7px 0 7px;
   font-size: 25px;
+  color: #CD5E77;
 }
 
 .headerachor:hover {
-  background-color: #f1f1f1;
+  background-color: #FFD1DF;
+  border-radius: 20px;
 }
 
 /* Section 1 */
-.column1 {
-  background-image: linear-gradient(#fefcfe, #ffffff);
-  padding: 8px 16px;
+.row.col-lg-9.col-md-12.mx-auto.section-1-row {
+  background-image: linear-gradient(to right, #F6A6BB, #F7D1D8);
+  padding: 30px 60px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px -5px #00000070;
 }
 
 .section-1 {
-  margin-top: 6%;
+  margin-top: 8%;
   text-align: left;
   position: relative;
+}
+.col-lg-8.section-1 {
+  margin-top: 6%;
 }
 span.wave {
   animation-name: wave-animation;
@@ -139,7 +147,7 @@ p {
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: #3498db;
+  color: #CD5E77;
   overflow: hidden;
   position: relative;
 }
@@ -160,7 +168,7 @@ p {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #3498db;
+  background: #FFD1DF;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -277,7 +285,7 @@ li {
     font-family: "Lovely Home";
     font-size: 40px;
     font-weight: bold;
-    color: #351458;
+    color: #CD5E77;
   }
 }
 @media only screen and (max-width: 991px) and (min-width: 951px) {
@@ -321,3 +329,4 @@ footer {
   color: #868e96;
   text-align: center;
 }
+

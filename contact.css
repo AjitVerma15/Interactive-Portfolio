@@ -2,6 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin: 0;
+  background-color: #FCF5E7;
+  color: #CD5E77;
 }
 .body_section {
   padding: 3% 5% 1%;
@@ -58,7 +60,7 @@ a {
   width: 300px;
   height: 300px;
   border: 10px solid;
-  border-color: #6c63ff;
+  border-color: #CD5E77;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);
 }
 
@@ -109,11 +111,12 @@ p {
 }
 
 .Resume {
-  background-color: #6c63ff;
+  background-color: #CD5E77;
+  border: none;
 }
 .Resume:hover {
   color: black;
-  background-color: white;
+  background-color: lightpink;
 }
 
 .second-section {
@@ -126,7 +129,7 @@ p {
   margin-bottom: 20px;
   font-size: 30px;
   color: white;
-  background-color: #6c63ff;
+  background-color: #CD5E77;
   padding: 10px 30px 10px;
   margin-left: 12%;
   margin-right: 12%;
